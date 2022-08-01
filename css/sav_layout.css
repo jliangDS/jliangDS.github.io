@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #604d49;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #bfb7b6;
+}
+
+h3{
+    text-transform: uppercase;
+}

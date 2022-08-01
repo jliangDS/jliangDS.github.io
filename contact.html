@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Dan Thi">
+    <meta name="description" content="Savanna's Coffee House">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/sav_layout.css">
+    <link rel="stylesheet" href="css/sav_style.css">
+    <script src="formSubmit.js"></script>
+    <title>Savanna's Coffee House - Contact</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <header class="bkg_coffee">
+                <a href="index.html"><img src="images/logo_coffee.svg" class="sav_coffee_logo" alt="Savanna's Coffee House Logo" width="50px"></a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="events.html">Events</a>
+                <a href="#">Contact Us</a>
+            </header>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="column">
+            <div id="formcontainer">
+                <form id="contact_form" method="post" action="completedForm.php">
+                    <legend>
+                        <h1 class="adorn_graved_reg">Contact</h1>
+                        <h5 class="voltage_reg">We're listening.</h5>
+                    </legend>
+                    <p><em>Feel free to submit your event ideas, suggestions or request a reservation to use our
+                            space!</em>
+                    </p>
+                    <fieldset1>
+                        <div>
+                            <label for="firstname">First Name: </label>
+                            <input id="firstname" name="firstname" type="text">
+                        </div>
+                        <div>
+                            <label for="lastname">Last Name: </label>
+                            <input id="lastname" name="lastname" type="text">
+                        </div>
+                        <div>
+                            <label for="email">Your Email: </label>
+                            <input id="email" name="email" type="text" placeholder="&nbsp;name@anywhere.com">
+                        </div>
+                    </fieldset1>
+                    <fieldset>
+                        <legend>Message</legend>
+                        <label for="message"></label>
+                        <textarea name="message" id="message" rows="10" cols="45"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Send Information" class="button btn btn-info btn-sm" />
+                    <input type="reset" value="Cancel" class="button btn btn-info btn-sm" />
+                </form>
+            </div>
+        </div>
+
+        <div class="column">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column"></div>
+        <div class="column"></div>
+    </div>
+
+    <div class="row">
+        <div class="column"></div>
+        <div class="column"></div>
+    </div>
+
+
+    <div class="footer">
+        <a href="https://www.facebook.com/groups/390185349909419/"><img src="images/facebook.svg" width="25px" height="25px"></a>
+        <p>604 24th Street</p>
+        <p>St. Paul, Minnesota</p>
+        <p>702-971-1154</p>
+        <a href="#">Go to top</a>
+    </div>
+</body>
